@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="icon" href="/images/logo.svg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="googleImageSearch.html">Image Search</a>
+            <a href="googleSearch.html">Search</a>
+        </header>
+        <div class="advanced">
+            <h3>Advanced Search</h3>
+        </div>
+        <div class="find">
+            <p>Find pages with...</p>
+            <p class="todo">To do this in the search box.</p>
+        </div>
+        <div class="centeradvanced">
+            <div>
+                <p class="options">all these words:</p>
+                <p class="options">this exact word or phrase:</p>
+                <p class="options">any of these words:</p>
+                <p class="options">none of these words:</p>
+            </div>
+            <div>
+                <form action="https://google.com/search">
+                    <div>
+                        <input type="text" name="as_q">
+                    </div>
+                    <div>
+                        <input type="text" name="as_epq">
+                    </div>
+                    <div>
+                        <input type="text" name="as_oq">
+                    </div>
+                    <div>
+                        <input type="text" name="as_eq">
+                    </div>
+                    <button type="submit" id="advancedSearch" value="Google Search">Advanced Search</button>
+                </form>
+            </div>
+            <div class="centerguide">
+                <p class="options">Type the important words: <span>tri-colour rat terrier</span></p>
+                <p class="options">Put exact words in quotes: <span>"rat terrier"</span></p>
+                <p class="options">Type <span>OR</span> between all the words you want: <span>miniature OR standard</span></p>
+                <p class="options">Put a minus sign just before words that you don't want:<span> -rodent, -"Jack Russell"</span></p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+}
+
+.center{
+    min-width: 100%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    box-sizing:border-box;
+}
+
+form{
+    width:582px;
+    justify-content: center;
+}
+
+.center input{
+    width: 582px;
+    height: 44px;
+    margin: 30px 0;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    outline: 0px transparent !important;
+    background: url(images/searchIcon.png) no-repeat scroll 15px 15px;
+    background-size: 15px;
+    padding-left:50px;
+    box-sizing:border-box;
+    font-size: 16px;
+}
+
+img{
+    padding-top: 109px;
+}
+
+button{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    margin: 15px 10px;
+    outline: 0px transparent !important;
+    font-size: 13px;
+}
+
+.advanced{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced h3{
+    font-weight: 200;
+    font-size: 20px;
+    margin: 25px 0;
+    margin-left: 45px;
+    color: #d93025;
+}
+
+.centeradvanced{
+    margin: 0 2% 0 45px;
+    display: flex;
+}
+.centeradvanced p{
+    font-size: 13px;
+}
+
+.centeradvanced input{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 95%;
+    outline: 0px transparent !important;
+}
+
+.centeradvanced form {
+    margin-top: -5px;
+}
+
+.centeradvanced form div{
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.find{
+    margin: 45px 2% 25px 45px;
+    display: flex;
+    width:68%;
+    justify-content: space-between;
+}
+
+.todo{
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+}
+
+.find p{
+    margin: 0;
+}
+
+.options{
+    min-width:182.39px;
+    min-height: 42px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.centerguide p{
+    font-size: 11px;
+    color: #555;
+}
+
+.centerguide span{
+    font-family: monospace;
+    color: #666;
+}
+
+#advancedSearch{
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+}
